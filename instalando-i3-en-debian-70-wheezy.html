@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>El blog de Jhon</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="/theme/css/main.css" type="text/css" />
+    <link rel="stylesheet" href="/theme/css/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="/theme/css/font-awesome.css" type="text/css" />
+</head>
+
+  <body>
+    <div class="container">
+
+      <header id="banner" class="body">
+        <div class="banner"><a href="">El blog de Jhon <strong></strong></a></div>
+      </header>
+      <div class="navigation">
+      </div><!-- /#menu -->
+
+      <div class="top-social">
+<div class="social-navigation">
+  <ol class="nav">
+    <li><a href="http://twitter.com/raidercolombia"><i class="icon-twitter"></i>  </a></li>
+    <li><a href="http://facebook.com/Ra1d3rC0l0mb1a"><i class="icon-facebook"></i>  </a></li>
+    <li><a href="http://github.com/raidercolombia"><i class="icon-github"></i>  </a></li>
+  </ol>
+</div>
+      </div>
+
+
+      <div class="content"><section id="content">
+  <header class="post">
+    <h2 class="archive-entry-title"> Instalando i3 en Debian 7.0 Wheezy </h2> 
+  </header>
+  <footer class="post-info">
+    <abbr>
+      Mon 17 November 2014 
+         By Jhon Ramirez
+  
+    </abbr>
+  </footer><!-- /.post-info -->
+  <div class="entry-content">
+    <p>En este post vamos a ver como instalar i3 en <strong><em><a href="http://debian.org">Debian</a></em> 7.0</strong>... pero antes que todo &iquest;Qu&eacute; es Debian? en palabras sencillas, es un sistema operativo para manejar computadores, est&aacute; basado en <strong>GNU/Linux</strong> y su primera versi&oacute;n fue publicada en 1993. Debian es famoso por ser muy robusto y por tener una gran cantidad de paquetes para instalar diferentes programas. Actualmente se encuentra en la versi&oacute;n 7.0 (Wheezy) liberada el 15 de junio de 2013.</p>
+<p>Ahora que ya sabemos que es Debian vamos a ver <a href="http://i3wm.org/"><em>&iquest;Que es i3?</em></a>. Pu&eacute;s bien, <strong>i3</strong> es un administrador de ventanas basado en una organizaci&oacute;n de "<em>baldosas</em>" (<a href="http://en.wikipedia.org/wiki/Tiling_window_manager"><em>Window manager tiling</em></a>). Ah! Ok, pero &iquest;Qu&eacute; es un administrador de ventanas?.</p>
+<p>Un administrador de ventanas es una aplicaci&oacute;n del sistema operativo que controla la ubicaci&oacute;n y la apariencia de las ventanas que ves en un computador. Ah bueno, pero &iquest;C&oacute;mo as&iacute; que en forma de baldosas?, esto significa que todas las ventanas van a ubicarse de tal manera que no se sobrepongan entre s&iacute;, una al lado de la otra, aprovechando la mayor cantidad de espacio en la pantalla.</p>
+<p>Una vez claro que es Debian y que es i3, quiero comentar el porque me decid&iacute; por probar este administrador de ventanas. Sucede que yo tengo una laptop de 15", y despu&eacute;s de probar varias distribuciones de GNU/Linux (Debian, <a href="http://fedoraproject.org"><em>Fedora</em></a>, <a href="http://mandriva.com"><em>Mandriva</em></a>, <a href="http://opensuse.org"><em>OpenSuse</em></a> y <a href="http://ubuntu.com"><em>Ubuntu</em></a>), varios entornos de escritorio (<a href="http://gnome.org"><em>Gnome</em></a>, <a href="http://kde.org"><em>KDE</em></a>, <a href="http://xfce.org"><em>XFCE</em></a>) y varios programas, siempre me cansaba del mousepad, era muy molesto manejar el cursor cuando tenia muchas ventanas abiertas, as&iacute; como cambiar de una a otra. Entonces, un compa&ntilde;ero de la universidad me mencion&oacute; este cuento de los "tiling", por eso me di la oportunidad de probar... y :O me gust&oacute; bastante, result&oacute; que soy mucho m&aacute;s productivo, me es m&aacute;s sencillo manejar varias ventanas y escritorios, as&iacute; como hacer un mayor uso del teclado, lo cual es m&aacute;s c&oacute;modo :)</p>
+<p>Ahora, sin m&aacute;s rodeos, <strong>&iquest;C&oacute;mo instalar i3 en Debian?</strong></p>
+<ol>
+<li>Abrir una terminal e iniciar sesi&oacute;n como <strong>root</strong>. (Esto se hace con el comando "<em>su</em>" seguido de introducir la contrase&ntilde;a de administrador del sistema).</li>
+<li>Ingresar el siguiente comando: "<em>apt-get install i3</em>".</li>
+<li>En un momento el sistema va a preguntar si queremos descargar una cantidad espec&iacute;fica de MB (los archivos de instalaci&oacute;n) y luego de ellos crear unos archivos que ocuparan otra cantidad espec&iacute;fica de MB en el disco duro. Por ello para continuar con la instalaci&oacute;n debemos presionar la tecla "<em>Y</em>" de  la palabra "Yes".</li>
+<li>Reiniciar el equipo.</li>
+<li>Iniciar sesi&oacute;n y asegurarse de escoger i3 como el entorno de escritorio que se va a usar.</li>
+<li>El asistente de instalaci&oacute;n va a pedir si queremos que se genere el archivo de configuraciones personalizadas (y claro que s&iacute; queremos!). Se oprime la tecla "<em>Enter</em>" (Esto solo se hace una vez)</li>
+<li>El asistente de instalaci&oacute;n va a pedir que se escoja la tecla "<em>Mod</em>", que nos va a servir para ejecutar muchos comandos en i3, por eso debes escoger la que mejor te parezca, por un lado la tecla <strong>Alt</strong> (<em>Mod1</em>), y por el otro lado la tecla <strong>Super</strong> (La tecla que tiene el logo de windows, <em>Mod4</em>).</li>
+<li>Listo! ya tenemos i3 instalado y listo para usar.</li>
+</ol>
+<p>Les adjunto el video de instalaci&oacute;n. As&iacute; estaba mi Debian recien instaladito :) (Fue lo primero que hice, despu&eacute;s de instalar <a href="http://recordmydesktop.sourceforge.net/about.php"><em>recordmydesktop</em></a> para grabar mi escritorio)</p>
+<iframe width="560" height="315" src="//www.youtube.com/embed/w5B1jgFMEco" frameborder="0" allowfullscreen></iframe>
+
+<p>Esta es la <a href="http://i3wm.org/docs/userguide.html"><em>Gu&iacute;a oficial de i3</em></a>, donde se explican los comandos b&aacute;sicos, los layouts, entre otras cositas.</p>
+<p>Eso es todo por ahora, espero poder hacer un post explicando un poco el funcionamiento de i3, y pu&eacute;s los siguientes post ser&aacute;n una serie de videos explicando la instalaci&oacute;n de diferentes programas que necesito (reproductor de m&uacute;sica, un instalador de paquetes, un editor de video, y algunos m&aacute;s), todos ellos en Debian 7.0 con i3.</p>
+<p>Paz :)</p>
+  </div><!-- /.entry-content -->
+</section>
+</div>
+
+      <aside class="right-nav">
+<div class="social-navigation">
+  <ol class="nav">
+    <li><a href="http://twitter.com/raidercolombia"><i class="icon-twitter"></i>  </a></li>
+    <li><a href="http://facebook.com/Ra1d3rC0l0mb1a"><i class="icon-facebook"></i>  </a></li>
+    <li><a href="http://github.com/raidercolombia"><i class="icon-github"></i>  </a></li>
+  </ol>
+</div>
+        <table class="archives">
+            <tr>
+              <td class="date odd">24-Nov-2014</td>
+              <td class="odd"><a href="/instalacion-de-google-chrome-en-debian-70.html">Instalaci&oacute;n de Google Chrome en Debian 7.0</a></td>
+            </tr>
+            <tr>
+              <td class="date even">19-Nov-2014</td>
+              <td class="even"><a href="/instalando-gdebi-en-debian-70-wheezy.html">Instalando GDebi en Debian 7.0 Wheezy</a></td>
+            </tr>
+            <tr>
+              <td class="date odd">17-Nov-2014</td>
+              <td class="odd"><a href="/instalando-i3-en-debian-70-wheezy.html">Instalando i3 en Debian 7.0 Wheezy</a></td>
+            </tr>
+            <tr>
+              <td class="date even">12-Nov-2014</td>
+              <td class="even"><a href="/pelican-static-generator.html">Pelican Static Generator</a></td>
+            </tr>
+            <tr>
+              <td class="date odd">05-Nov-2014</td>
+              <td class="odd"><a href="/my-first-post.html">My First Post</a></td>
+            </tr>
+        </table>
+      </aside>  <!-- end right-content -->
+
+
+    </div> <!-- end container -->
+
+    <footer id="contentinfo" class="footer">
+      <div>
+        <a href="http://twitter.com/raidercolombia"><i class="icon-twitter"></i>  </a>
+        <a href="http://facebook.com/Ra1d3rC0l0mb1a"><i class="icon-facebook"></i>  </a>
+        <a href="http://github.com/raidercolombia"><i class="icon-github"></i>  </a>
+      </div>
+      <div>
+        powered by <a href="http://getpelican.com/">pelican</a>.
+      </div>
+    </footer><!-- /#contentinfo -->
+
+
+
+  </body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>El blog de Jhon</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="/theme/css/main.css" type="text/css" />
+    <link rel="stylesheet" href="/theme/css/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="/theme/css/font-awesome.css" type="text/css" />
+</head>
+
+  <body>
+    <div class="container">
+
+      <header id="banner" class="body">
+        <div class="banner"><a href="">El blog de Jhon <strong></strong></a></div>
+      </header>
+      <div class="navigation">
+      </div><!-- /#menu -->
+
+      <div class="top-social">
+<div class="social-navigation">
+  <ol class="nav">
+    <li><a href="http://twitter.com/raidercolombia"><i class="icon-twitter"></i>  </a></li>
+    <li><a href="http://facebook.com/Ra1d3rC0l0mb1a"><i class="icon-facebook"></i>  </a></li>
+    <li><a href="http://github.com/raidercolombia"><i class="icon-github"></i>  </a></li>
+  </ol>
+</div>
+      </div>
+
+
+      <div class="content"><section id="content">
+  <header class="post">
+    <h2 class="archive-entry-title"> Instalando GDebi en Debian 7.0 Wheezy </h2> 
+  </header>
+  <footer class="post-info">
+    <abbr>
+      Wed 19 November 2014 
+         By Jhon Ramirez
+  
+    </abbr>
+  </footer><!-- /.post-info -->
+  <div class="entry-content">
+    <p>Que onda!</p>
+<p>Hoy vamos a ver como instalar <a href="https://packages.debian.org/wheezy/gdebi"><em>GDebi</em></a>, pero &iquest;Qu&eacute; es eso?.</p>
+<p><strong>GDebi</strong> es una aplicaci&oacute;n muy sencilla para instalar aplicaciones en las distribuciones (<a href="http://en.wikipedia.org/wiki/Linux_distribution"><em>distros</em></a>) de <strong>GNU/Linux</strong> basadas en Debian a trav&eacute;s de un archivo "<em>.deb</em>". Ok, pero <a href="http://en.wikipedia.org/wiki/Deb_%28file_format%29"><em>&iquest;Qu&eacute; es un archivo .deb?</em></a>. Bueno pues un archivo .deb es la extensi&oacute;n para  el formato de paquetes de software de Debian, es decir, es un archivo con todo lo necesario para instalar una aplicaci&oacute;n espec&iacute;fica en un computador que corra Debian o uno de sus derivados.</p>
+<p>GDebi permite instalar estas aplicaciones de manera local (esto significa que la instalaci&oacute;n se hace a partir del archivo), resolviendo e instalando sus dependencias (librerias necesarias para que todo funcione bien) autom&aacute;ticamente, a diferencia del comando "<em>apt</em>" que hace lo mismo pero solo para paquetes remotos (generalmente almacenados en repositorios).</p>
+<p>Pero, si cada distro de GNU/Linux viene con un administrador de paquetes, el cual permite al usuario buscar e instalar (en Debian se llama <a href="http://www.nongnu.org/synaptic/"><em>Synaptic</em></a>) el paquete que desee, &iquest;Para qu&eacute; quiero instalar una aplicaci&oacute;n que tambi&eacute;n instala paquetes?. Pu&eacute;s resulta que instalar un paquete con Synaptic, es igual que instalarlo con el comando "apt", puesto que este administrador busca el paquete y sus dependencias en los repositorios de la distro. La gran diferencia es que GDebi instala el paquete que se le indique, el cual debe ser un archivo con extensi&oacute;n "<em>.deb</em>".</p>
+<p>Ahora bien, <strong>&iquest;C&oacute;mo instalar GDebi?</strong></p>
+<ol>
+<li>Abrir una terminal e iniciar sesi&oacute;n como <strong>root</strong>. (Esto se hace con el comando "<em>su</em>" seguido de introducir la contrase&ntilde;a de administrador del sistema).</li>
+<li>Ingresar el siguiente comando: "<em>apt-get install gdebi</em>".</li>
+<li>En un momento el sistema va a preguntar si queremos descargar una cantidad espec&iacute;fica de MB (los archivos de instalaci&oacute;n) y luego de ellos crear unos archivos que ocupar&aacute;n otra cantidad espec&iacute;fica de MB en el disco duro. Por ello para continuar con la instalaci&oacute;n debemos presionar la tecla "<em>Y</em>" de la palabra "Yes".</li>
+<li>Esperar que termine y listo!</li>
+</ol>
+<p>A continuaci&oacute;n encontrar&aacute;n el video de la instalaci&oacute;n de GDebi.</p>
+<iframe width="560" height="315" src="//www.youtube.com/embed/w5B1jgFMEco" frameborder="0" allowfullscreen></iframe>
+
+<p>Con eso ya tenemos instalado esta aplicaci&oacute;n para instalar aplicaciones (jajajaj), pero, &iquest;C&oacute;mo instalo una aplicaci&oacute;n con GDebi?. Pu&eacute;s lo &uacute;nico que se debe hacer es hacer click derecho sobre el paquete ".deb" y seleccionar la opci&oacute;n "<em>Open with GDebi Package Installer</em>" o "<em>Abrir con Instalador de Paquetes GDebi</em>" si el lenguaje de la distro es espa&ntilde;ol.</p>
+<p>Paz :)</p>
+  </div><!-- /.entry-content -->
+</section>
+</div>
+
+      <aside class="right-nav">
+<div class="social-navigation">
+  <ol class="nav">
+    <li><a href="http://twitter.com/raidercolombia"><i class="icon-twitter"></i>  </a></li>
+    <li><a href="http://facebook.com/Ra1d3rC0l0mb1a"><i class="icon-facebook"></i>  </a></li>
+    <li><a href="http://github.com/raidercolombia"><i class="icon-github"></i>  </a></li>
+  </ol>
+</div>
+        <table class="archives">
+            <tr>
+              <td class="date odd">24-Nov-2014</td>
+              <td class="odd"><a href="/instalacion-de-google-chrome-en-debian-70.html">Instalaci&oacute;n de Google Chrome en Debian 7.0</a></td>
+            </tr>
+            <tr>
+              <td class="date even">19-Nov-2014</td>
+              <td class="even"><a href="/instalando-gdebi-en-debian-70-wheezy.html">Instalando GDebi en Debian 7.0 Wheezy</a></td>
+            </tr>
+            <tr>
+              <td class="date odd">17-Nov-2014</td>
+              <td class="odd"><a href="/instalando-i3-en-debian-70-wheezy.html">Instalando i3 en Debian 7.0 Wheezy</a></td>
+            </tr>
+            <tr>
+              <td class="date even">12-Nov-2014</td>
+              <td class="even"><a href="/pelican-static-generator.html">Pelican Static Generator</a></td>
+            </tr>
+            <tr>
+              <td class="date odd">05-Nov-2014</td>
+              <td class="odd"><a href="/my-first-post.html">My First Post</a></td>
+            </tr>
+        </table>
+      </aside>  <!-- end right-content -->
+
+
+    </div> <!-- end container -->
+
+    <footer id="contentinfo" class="footer">
+      <div>
+        <a href="http://twitter.com/raidercolombia"><i class="icon-twitter"></i>  </a>
+        <a href="http://facebook.com/Ra1d3rC0l0mb1a"><i class="icon-facebook"></i>  </a>
+        <a href="http://github.com/raidercolombia"><i class="icon-github"></i>  </a>
+      </div>
+      <div>
+        powered by <a href="http://getpelican.com/">pelican</a>.
+      </div>
+    </footer><!-- /#contentinfo -->
+
+
+
+  </body>
+</html>
